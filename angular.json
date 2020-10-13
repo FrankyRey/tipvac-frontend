@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tipvac-frontend"
+    }
+  },
+  "defaultProject": "tipvac-frontend",
+  "cli": {
+    "analytics": "2be0b265-f758-48b2-8aec-19084288d133"
+  }
 }
